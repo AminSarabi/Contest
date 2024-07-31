@@ -24,7 +24,7 @@ interface NumberParser {
  * Escape a certain set of characters in a text. must handle escaping control characters as well as regular characters.
  * DO NOT USE STRING METHODS. do not create unnecessary objects.
  * you can grow the array of chars if required.
- * */
+ */
 interface Escaper {
 
     char[] escape(CharProvider charProvider, Set<Character> charsToEscape, char escapeChar);

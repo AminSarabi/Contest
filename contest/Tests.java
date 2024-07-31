@@ -13,7 +13,7 @@ public class Tests {
 
     public static void main(String[] args) {
         //replace the following with your own implementation so that you can test it.
-        testImplementation(new Implementations_default());
+        testImplementation(new Implementation_ali_forghani());
     }
 
     static void testImplementation(Implementations implementations) {
