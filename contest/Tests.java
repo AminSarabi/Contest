@@ -43,10 +43,10 @@ public class Tests {
                     expectedConversion = random.nextDouble();
                     break;
                 case 4:
-                    expectedConversion = new BigInteger(random.nextLong() + "" + random.nextLong());
+                    expectedConversion = new BigInteger(random.nextLong() + "" + Math.abs(random.nextLong()));
                     break;
                 case 5:
-                    expectedConversion = new BigDecimal(random.nextLong() + "." + random.nextLong());
+                    expectedConversion = new BigDecimal(random.nextLong() + "." + Math.abs(random.nextLong()));
                     break;
                 case 6:
                     expectedConversion = new Number[]{0, -1, 1, Double.MAX_VALUE, Integer.MAX_VALUE, Long.MAX_VALUE}[random.nextInt(5)];
